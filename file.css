@@ -1,7 +1,8 @@
 
 body{margin: 0px;}
 
-.header {background:#000;}
+.header {background:#000;
+height: 80px;}
 
 .container{
     margin: 0px auto;
