@@ -1,9 +1,11 @@
 
-body {margin: 0px;}
+ul,li{list-style: none;}
+body {margin: 10px;}
+
 
 .container{width: 1100px;
-    margin-left: auto;
-    margin-right: auto;}
+    margin: 0px auto;
+position: relative;}
 
 
 header{background: #000;}
@@ -23,9 +25,9 @@ left: 130px;}
     top: 10px;}
 
 .shedule{position: absolute;
-top: 13px;
-right: 80px;
-font-size: 10px;
+top: 24px;
+right: 120px;
+font-size: 14px;
 color: gold;
 }
 .menu{
@@ -34,11 +36,54 @@ color: gold;
         vertical-align:middle;}
         
 
-        .main.container{position: relative;}
-        .osobennosti{background: #000;
-        color: #fff;}
-        .JUST{
+        .main__container{
+            position: relative;
+            }
+        .specs{background: #000;
+        color: #fff;
+    text-align: center;}
+        .just{
             top: 100px;
             width: 800px;
-            
-        }
+            text-align: center; }
+
+        .uniq{display: inline-block;
+            width: 33%;
+             }
+        .premium{display: inline-block; 
+        width: 33%;
+    }
+
+        .coach{
+            display: inline-block;
+            width: 33%;
+          }
+
+         .daily__news{display: inline-block;}
+         .news__first-img{display: inline-block;
+            width: 10%;
+    }
+        .news__block-list{display: inline-block;
+            width: 70%;
+            }
+
+         .news__second-img{display: inline-block;
+          width: 10%;}
+          .news__block-second{display: inline-block;
+            width: 70%;}
+
+       .news__third-img{display: inline-block;
+            width: 10%;}
+        .news__block-third{display: inline-block;
+        width: 70%;}
+
+    .last__news{display: inline-block;
+    width: 20%;}
+    .last__news-img{display: inline-block;
+    width: 20%;}
+
+
+        
+
+        footer{background: #000;}
+    
