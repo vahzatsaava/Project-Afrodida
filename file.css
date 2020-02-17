@@ -58,31 +58,29 @@ color: gold;
             display: inline-block;
             width: 33%;
           }
-
-         .daily__news{display: inline-block;}
-         .news__first-img{display: inline-block;
-            width: 10%;
-    }
-        .news__block-list{display: inline-block;
-            width: 70%;
-            }
-
-         .news__second-img{display: inline-block;
-          width: 10%;}
-          .news__block-second{display: inline-block;
-            width: 70%;}
-
-       .news__third-img{display: inline-block;
-            width: 10%;}
-        .news__block-third{display: inline-block;
-        width: 70%;}
-
-    .last__news{display: inline-block;
-    width: 20%;}
-    .last__news-img{display: inline-block;
-    width: 20%;}
-
-
+           .news{display: inline-block;}
+          .news__first-img{display: inline-block;
+             width: 10%;
+     }
+         .news__block-list{display: inline-block;
+             width: 70%;
+             }
+ 
+          .news__second-img{display: inline-block;
+           width: 10%;}
+           .news__block-second{display: inline-block;
+             width: 70%;}
+ 
+        .news__third-img{display: inline-block;
+             width: 10%;}
+         .news__block-third{display: inline-block;
+         width: 70%;}
+ 
+     .last__news{display: inline-block;
+     width: 20%;}
+     .last__news-img{display: inline-block;
+     width: 20%;}
+ 
         
 
         footer{background: #000;}
