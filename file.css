@@ -195,12 +195,21 @@ header {
     overflow: hidden;
 }
 
-.pagination__display,
+.pagination {
+    text-align: center;
+}
+
+.pagination__item,
 .pagination__controls,
-.pagination__item {
+.pagination__display {
     display: inline-block;
     vertical-align: middle;
-    width: 7%;
+    color: #000;
+}
+
+.pagination__link {
+    color: #000;
+    text-decoration: none;
 }
 
 footer {
@@ -209,7 +218,6 @@ footer {
 
 .footer__container {
     background: #000;
-    position: relative;
 }
 
 .madel {
@@ -224,6 +232,7 @@ footer {
 }
 
 .socials {
+    position: absolute;
     right: 300px;
     color: #fff;
 }
@@ -237,14 +246,13 @@ footer {
 .vkontakte,
 .messige,
 .tviter {
-    display: inline-block;
     vertical-align: middle;
     width: 20px;
-    margin-bottom: 20px;
+    right: 50px;
 }
 
 .logo__footer {
     position: absolute;
-    top: 70px;
+    top: 10px;
     left: 500px;
 }
