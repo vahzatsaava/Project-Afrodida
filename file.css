@@ -8,13 +8,14 @@ body {
 }
 
 .container {
-    width: 1100px;
+    width: 950px;
     margin: 0px auto;
     position: relative;
 }
 
 header {
     background: #000;
+    height: 70px;
 }
 
 .header__container {
@@ -25,21 +26,22 @@ header {
 .logo {
     position: absolute;
     top: 10px;
-    left: 130px;
+    left: 100px;
 }
 
 .contacts {
     position: absolute;
     color: #fff;
-    font-size: 10px;
-    right: 130px;
+    font-size: 15px;
+    right: 100px;
     top: 10px;
+    text-decoration: none;
 }
 
 .shedule {
     position: absolute;
-    top: 24px;
-    right: 120px;
+    top: 28px;
+    right: 100px;
     font-size: 14px;
     color: gold;
 }
@@ -93,13 +95,18 @@ header {
     top: 100px;
     width: 800px;
     height: 400px;
-    padding: 150px;
+    padding: 100px;
     margin: 0px;
+}
+
+.specs {
+    height: 350px;
 }
 
 .uniq {
     display: inline-block;
     width: 33%;
+    font-size: 14px;
 }
 
 .uniq-img {
@@ -112,6 +119,7 @@ header {
 .premium {
     display: inline-block;
     width: 33%;
+    font-size: 14px;
 }
 
 .premium-img {
@@ -124,6 +132,7 @@ header {
 .coach {
     display: inline-block;
     width: 33%;
+    font-size: 14px;
 }
 
 .coach-img {
@@ -214,6 +223,7 @@ header {
 
 footer {
     background: #000;
+    height: 80px;
 }
 
 .footer__container {
@@ -223,8 +233,9 @@ footer {
 .madel {
     position: absolute;
     color: #fff;
-    left: 90px;
+    left: 10px;
     font-size: 12px;
+    top: 0px;
 }
 
 .copyright__link {
@@ -233,26 +244,64 @@ footer {
 
 .socials {
     position: absolute;
-    right: 300px;
+    right: 0px;
+    top: 0px;
     color: #fff;
 }
 
+.media {
+    display: block;
+}
+
 .vkontakte {
-    vertical-align: middle;
+    display: inline-block;
+    width: 14px;
+    height: 22px;
+    border-radius: 50%;
+    overflow: hidden;
     color: #ff0;
 }
 
+.item__vkontakte {
+    color: #ff0;
+}
+
+.facebook {
+    display: inline-block;
+    width: 14px;
+    height: 22px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.tviter {
+    display: inline-block;
+    width: 14px;
+    height: 22px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.messige {
+    display: inline-block;
+    width: 14px;
+    height: 22px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+}
 .facebook,
 .vkontakte,
 .messige,
 .tviter {
+    display: inline-block;
     vertical-align: middle;
     width: 20px;
-    right: 50px;
 }
-
 .logo__footer {
     position: absolute;
     top: 10px;
-    left: 500px;
+    left: 430px;
 }
